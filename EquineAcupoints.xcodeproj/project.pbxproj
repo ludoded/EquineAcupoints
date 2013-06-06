@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632265B517380DE400E6C34F /* Horse assessment instructions-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 632265B317380DE400E6C34F /* Horse assessment instructions-2.png */; };
+		632265B617380DE400E6C34F /* Horse assessment instructions-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 632265B417380DE400E6C34F /* Horse assessment instructions-3.png */; };
+		632265B8173815BD00E6C34F /* Colic 11x17.png in Resources */ = {isa = PBXBuildFile; fileRef = 632265B7173815BD00E6C34F /* Colic 11x17.png */; };
+		6386119617281F9400C61B5D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119117281F9400C61B5D /* home.png */; };
+		6386119717281F9400C61B5D /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119217281F9400C61B5D /* horse.png */; };
+		6386119817281F9400C61B5D /* phone-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119317281F9400C61B5D /* phone-book.png */; };
+		6386119917281F9400C61B5D /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119417281F9400C61B5D /* question.png */; };
+		6386119A17281F9400C61B5D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119517281F9400C61B5D /* sun.png */; };
+		638611A11728236000C61B5D /* mainscreenlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119B1728236000C61B5D /* mainscreenlogo@2x.png */; };
+		638611A21728236000C61B5D /* mainscreenlogo@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119C1728236000C61B5D /* mainscreenlogo@2x~iPad.png */; };
+		638611A31728236000C61B5D /* mainscreenlogo~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119D1728236000C61B5D /* mainscreenlogo~iPad.png */; };
+		638611A41728236000C61B5D /* photonic_healt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119E1728236000C61B5D /* photonic_healt@2x.png */; };
+		638611A51728236000C61B5D /* photonic_healt@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6386119F1728236000C61B5D /* photonic_healt@2x~iPad.png */; };
+		638611A61728236000C61B5D /* photonic_healt~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 638611A01728236000C61B5D /* photonic_healt~iPad.png */; };
+		638611A917282D2300C61B5D /* EAContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638611A817282D2300C61B5D /* EAContactsViewController.m */; };
+		638611AB17282F4600C61B5D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638611AA17282F4600C61B5D /* MessageUI.framework */; };
+		638611B017283DDD00C61B5D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 638611AD17283DDD00C61B5D /* SVProgressHUD.bundle */; };
+		638611B117283DDD00C61B5D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 638611AF17283DDD00C61B5D /* SVProgressHUD.m */; };
+		638611BB1728413A00C61B5D /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 638611B41728413A00C61B5D /* BButton.m */; };
+		638611BC1728413A00C61B5D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 638611B61728413A00C61B5D /* NSString+FontAwesome.m */; };
+		638611BD1728413A00C61B5D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638611B81728413A00C61B5D /* FontAwesome.ttf */; };
+		638611BE1728413A00C61B5D /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 638611BA1728413A00C61B5D /* UIColor+BButton.m */; };
+		6390C20C1735653100EBF73C /* Colic 11x17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6390C20B1735653100EBF73C /* Colic 11x17.pdf */; };
+		6390C20E173567BE00EBF73C /* hyoid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C20D173567BE00EBF73C /* hyoid.jpg */; };
+		6390C2221735717200EBF73C /* bladder_meridian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C20F1735717200EBF73C /* bladder_meridian.jpg */; };
+		6390C2261735717300EBF73C /* conception_vessel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2141735717200EBF73C /* conception_vessel.jpg */; };
+		6390C2271735717300EBF73C /* gall_bladder_meridian_gb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2151735717200EBF73C /* gall_bladder_meridian_gb.jpg */; };
+		6390C2281735717300EBF73C /* governing_vessel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2161735717200EBF73C /* governing_vessel1.jpg */; };
+		6390C2291735717300EBF73C /* governing_vessel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2171735717200EBF73C /* governing_vessel2.jpg */; };
+		6390C22A1735717300EBF73C /* heart_meridian_ht.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2181735717200EBF73C /* heart_meridian_ht.jpg */; };
+		6390C22B1735717300EBF73C /* kidney_meridian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2191735717200EBF73C /* kidney_meridian.jpg */; };
+		6390C22C1735717300EBF73C /* large_intestine_meridian_li.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21A1735717200EBF73C /* large_intestine_meridian_li.jpg */; };
+		6390C22D1735717300EBF73C /* liver_meridian_li.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21B1735717200EBF73C /* liver_meridian_li.jpg */; };
+		6390C22E1735717300EBF73C /* lung_meridian_lu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21C1735717200EBF73C /* lung_meridian_lu.jpg */; };
+		6390C22F1735717300EBF73C /* pericardium_meridian_pc_or_pe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21D1735717200EBF73C /* pericardium_meridian_pc_or_pe.jpg */; };
+		6390C2301735717300EBF73C /* small_intestine_meridian_si.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21E1735717200EBF73C /* small_intestine_meridian_si.jpg */; };
+		6390C2311735717300EBF73C /* spleen_meridian_sp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C21F1735717200EBF73C /* spleen_meridian_sp.jpg */; };
+		6390C2321735717300EBF73C /* stomach_meridian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2201735717200EBF73C /* stomach_meridian.jpg */; };
+		6390C2331735717300EBF73C /* triple_heater_meridian_th.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2211735717200EBF73C /* triple_heater_meridian_th.jpg */; };
+		6390C2351735728900EBF73C /* emergency_points.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2341735728900EBF73C /* emergency_points.jpg */; };
+		6390C23F1735783100EBF73C /* back_feet_caudial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2361735783000EBF73C /* back_feet_caudial.jpg */; };
+		6390C2401735783100EBF73C /* back_feet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C2371735783000EBF73C /* back_feet.jpg */; };
+		6390C2441735783100EBF73C /* front_feet_caudial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C23C1735783100EBF73C /* front_feet_caudial.jpg */; };
+		6390C2451735783100EBF73C /* front_feet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C23D1735783100EBF73C /* front_feet.jpg */; };
+		6390C2461735783100EBF73C /* red_light_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6390C23E1735783100EBF73C /* red_light_therapy.jpg */; };
+		6390C248173579FF00EBF73C /* Horse assessment instructions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6390C247173579FF00EBF73C /* Horse assessment instructions.pdf */; };
+		63B3715E172AC12200D1707F /* iphone3Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B3715D172AC12200D1707F /* iphone3Icon.png */; };
+		63B37160172AC12900D1707F /* iphone5Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B3715F172AC12900D1707F /* iphone5Icon.png */; };
+		63EF4FC0173AB78800C384FE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 63EF4FBE173AB78800C384FE /* iTunesArtwork */; };
+		63EF4FC1173AB78800C384FE /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 63EF4FBF173AB78800C384FE /* iTunesArtwork@2x */; };
+		63F519171726BA5200B88CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F519161726BA5100B88CA7 /* UIKit.framework */; };
+		63F519191726BA5200B88CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F519181726BA5200B88CA7 /* Foundation.framework */; };
+		63F5191B1726BA5200B88CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F5191A1726BA5200B88CA7 /* CoreGraphics.framework */; };
+		63F519211726BA5200B88CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63F5191F1726BA5200B88CA7 /* InfoPlist.strings */; };
+		63F519231726BA5200B88CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519221726BA5200B88CA7 /* main.m */; };
+		63F519271726BA5200B88CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519261726BA5200B88CA7 /* AppDelegate.m */; };
+		63F519291726BA5200B88CA7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F519281726BA5200B88CA7 /* Default.png */; };
+		63F5192B1726BA5200B88CA7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5192A1726BA5200B88CA7 /* Default@2x.png */; };
+		63F5192D1726BA5200B88CA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5192C1726BA5200B88CA7 /* Default-568h@2x.png */; };
+		63F519301726BA5200B88CA7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F5192E1726BA5200B88CA7 /* MainStoryboard_iPhone.storyboard */; };
+		63F519331726BA5200B88CA7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F519311726BA5200B88CA7 /* MainStoryboard_iPad.storyboard */; };
+		63F519361726BA5200B88CA7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519351726BA5200B88CA7 /* FirstViewController.m */; };
+		63F519381726BA5200B88CA7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F519371726BA5200B88CA7 /* first.png */; };
+		63F5193A1726BA5200B88CA7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F519391726BA5200B88CA7 /* first@2x.png */; };
+		63F5193D1726BA5200B88CA7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5193C1726BA5200B88CA7 /* SecondViewController.m */; };
+		63F5193F1726BA5200B88CA7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5193E1726BA5200B88CA7 /* second.png */; };
+		63F519411726BA5200B88CA7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F519401726BA5200B88CA7 /* second@2x.png */; };
+		63F5194B1726C3D700B88CA7 /* mainscreenlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5194A1726C3D700B88CA7 /* mainscreenlogo.png */; };
+		63F5194F1726C86900B88CA7 /* EABladderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5194E1726C86900B88CA7 /* EABladderViewController.m */; };
+		63F519511726C8D500B88CA7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F519501726C8D500B88CA7 /* MediaPlayer.framework */; };
+		63F519541726CCE600B88CA7 /* Photonic_Health-Bladder_Opening.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63F519531726CCE600B88CA7 /* Photonic_Health-Bladder_Opening.mp4 */; };
+		63F5195A1726D85700B88CA7 /* EABladderViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519591726D85700B88CA7 /* EABladderViewController_iPhoneViewController.m */; };
+		63F5195D1726D9E800B88CA7 /* assessments.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5195C1726D9E800B88CA7 /* assessments.html */; };
+		63F519601726DA5300B88CA7 /* EAAssessmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5195F1726DA5300B88CA7 /* EAAssessmentsViewController.m */; };
+		63F519631726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519621726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.m */; };
+		63F519651726FA3000B88CA7 /* charts_introductory_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519641726FA3000B88CA7 /* charts_introductory_points.html */; };
+		63F519671726FA6C00B88CA7 /* charts_wellness_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519661726FA6C00B88CA7 /* charts_wellness_points.html */; };
+		63F519691726FA9400B88CA7 /* charts_colic_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519681726FA9400B88CA7 /* charts_colic_points.html */; };
+		63F5196B1726FAAE00B88CA7 /* charts_emergency_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5196A1726FAAE00B88CA7 /* charts_emergency_points.html */; };
+		63F5196D1726FAD100B88CA7 /* charts_low_back_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5196C1726FAD000B88CA7 /* charts_low_back_points.html */; };
+		63F5196F1726FB8400B88CA7 /* charts_laminitis_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5196E1726FB8400B88CA7 /* charts_laminitis_points.html */; };
+		63F519711726FBAD00B88CA7 /* charts_stifle_chart.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519701726FBAD00B88CA7 /* charts_stifle_chart.html */; };
+		63F519731726FBCF00B88CA7 /* charts_shoulder_points.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519721726FBCF00B88CA7 /* charts_shoulder_points.html */; };
+		63F519751726FBF500B88CA7 /* charts_hyoid_tmj_chart.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519741726FBF500B88CA7 /* charts_hyoid_tmj_chart.html */; };
+		63F519781726FCE400B88CA7 /* EAChartsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519771726FCE400B88CA7 /* EAChartsTableViewController.m */; };
+		63F5197B1726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5197A1726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.m */; };
+		63F5197E1726FDBD00B88CA7 /* EAChartsWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5197D1726FDBD00B88CA7 /* EAChartsWebViewViewController.m */; };
+		63F519811726FDFF00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519801726FDFF00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.m */; };
+		63F519831727085700B88CA7 /* meridians_governing_vessel.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519821727085600B88CA7 /* meridians_governing_vessel.html */; };
+		63F51991172709E800B88CA7 /* meridians_heart_meridian_ht.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F51990172709E800B88CA7 /* meridians_heart_meridian_ht.html */; };
+		63F5199317270A1F00B88CA7 /* meridians_small_intestine_meridian_si.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199217270A1E00B88CA7 /* meridians_small_intestine_meridian_si.html */; };
+		63F5199517270A6100B88CA7 /* meridians_pericardium_meridian_pc_or_pe.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199417270A6000B88CA7 /* meridians_pericardium_meridian_pc_or_pe.html */; };
+		63F5199917270AC500B88CA7 /* meridians_gall_bladder_meridian_gb.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199817270AC500B88CA7 /* meridians_gall_bladder_meridian_gb.html */; };
+		63F5199B17270AF600B88CA7 /* meridians_liver_meridian_li.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199A17270AF600B88CA7 /* meridians_liver_meridian_li.html */; };
+		63F5199D17270B2400B88CA7 /* meridians_kidney_meridian.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199C17270B2400B88CA7 /* meridians_kidney_meridian.html */; };
+		63F519A517270B6800B88CA7 /* meridians_bladder_meridian_bi.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199E17270B6000B88CA7 /* meridians_bladder_meridian_bi.html */; };
+		63F519A617270B6800B88CA7 /* meridians_conception_vessel.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F5199F17270B6000B88CA7 /* meridians_conception_vessel.html */; };
+		63F519A717270B6800B88CA7 /* meridians_large_intestine_meridian_li.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519A017270B6200B88CA7 /* meridians_large_intestine_meridian_li.html */; };
+		63F519A817270B6800B88CA7 /* meridians_lung_meridian_lu.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519A117270B6300B88CA7 /* meridians_lung_meridian_lu.html */; };
+		63F519A917270B6800B88CA7 /* meridians_spleen_meridian_sp.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519A217270B6400B88CA7 /* meridians_spleen_meridian_sp.html */; };
+		63F519AA17270B6800B88CA7 /* meridians_stomach_meridian.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519A317270B6500B88CA7 /* meridians_stomach_meridian.html */; };
+		63F519AB17270B6800B88CA7 /* meridians_triple_heater_meridian_th.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519A417270B6600B88CA7 /* meridians_triple_heater_meridian_th.html */; };
+		63F519AE17270D5B00B88CA7 /* EAMeridiansTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519AD17270D5B00B88CA7 /* EAMeridiansTableViewController.m */; };
+		63F519B117270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519B017270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.m */; };
+		63F519B41727185800B88CA7 /* EAHomePageWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519B31727185700B88CA7 /* EAHomePageWebViewController.m */; };
+		63F519B717271A2600B88CA7 /* EATingPointsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519B617271A2500B88CA7 /* EATingPointsTableViewController.m */; };
+		63F519B917271A7A00B88CA7 /* ting_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519B817271A7A00B88CA7 /* ting_intro.html */; };
+		63F519BB17271AA300B88CA7 /* ting_front_feet.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519BA17271AA200B88CA7 /* ting_front_feet.html */; };
+		63F519BD17271AE600B88CA7 /* ting_front_feet_caudial.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519BC17271AE500B88CA7 /* ting_front_feet_caudial.html */; };
+		63F519BF17271B1B00B88CA7 /* ting_back_feet.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519BE17271B1A00B88CA7 /* ting_back_feet.html */; };
+		63F519C117271B5700B88CA7 /* ting_back_feet_caudal.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519C017271B5600B88CA7 /* ting_back_feet_caudal.html */; };
+		63F519C417271E6E00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519C317271E6D00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.m */; };
+		63F519CA1727211000B88CA7 /* EARedLightTherapyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519C91727210F00B88CA7 /* EARedLightTherapyViewController.m */; };
+		63F519CC172721FC00B88CA7 /* red_light_therapy.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519CB172721FB00B88CA7 /* red_light_therapy.html */; };
+		63F519CF172722FC00B88CA7 /* EAFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519CE172722FB00B88CA7 /* EAFAQViewController.m */; };
+		63F519D11727231D00B88CA7 /* FAQ.html in Resources */ = {isa = PBXBuildFile; fileRef = 63F519D01727231C00B88CA7 /* FAQ.html */; };
+		63F519D41727264000B88CA7 /* UIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F519D31727263E00B88CA7 /* UIMainViewController.m */; };
+		63F519D61727279D00B88CA7 /* photonic_healt.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F519D51727279D00B88CA7 /* photonic_healt.png */; };
+		63F53F2E17330CD4000D670C /* Back and Hip Soreness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F1F17330CD4000D670C /* Back and Hip Soreness.jpg */; };
+		63F53F2F17330CD4000D670C /* Bladder meridian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2017330CD4000D670C /* Bladder meridian.jpg */; };
+		63F53F3017330CD4000D670C /* Acr4992898057768-4510.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2217330CD4000D670C /* Acr4992898057768-4510.png */; };
+		63F53F3117330CD4000D670C /* Acr499289805776819699.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2317330CD4000D670C /* Acr499289805776819699.png */; };
+		63F53F3217330CD4000D670C /* Acr49928980577683912.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2417330CD4000D670C /* Acr49928980577683912.png */; };
+		63F53F3317330CD4000D670C /* Conception Vessel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2517330CD4000D670C /* Conception Vessel.jpg */; };
+		63F53F3417330CD4000D670C /* Intro Points.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2617330CD4000D670C /* Intro Points.pdf */; };
+		63F53F3617330CD4000D670C /* Laminitis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2817330CD4000D670C /* Laminitis.jpg */; };
+		63F53F3717330CD4000D670C /* Navicular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2917330CD4000D670C /* Navicular.jpg */; };
+		63F53F3817330CD4000D670C /* Shoulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2A17330CD4000D670C /* Shoulder.jpg */; };
+		63F53F3917330CD4000D670C /* Stifle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2B17330CD4000D670C /* Stifle.pdf */; };
+		63F53F3A17330CD4000D670C /* Stifle.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2C17330CD4000D670C /* Stifle.png */; };
+		63F53F3B17330CD4000D670C /* Wellness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F2D17330CD4000D670C /* Wellness.jpg */; };
+		63F53F3D17330EF0000D670C /* IntroPoints.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F53F3C17330EF0000D670C /* IntroPoints.png */; };
+		63FF2BC517394A8C00E5A94D /* EANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2BC417394A8C00E5A94D /* EANavigationController.m */; };
+		63FF2BC817394AAA00E5A94D /* EATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2BC717394AAA00E5A94D /* EATabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632265B317380DE400E6C34F /* Horse assessment instructions-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horse assessment instructions-2.png"; sourceTree = "<group>"; };
+		632265B417380DE400E6C34F /* Horse assessment instructions-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horse assessment instructions-3.png"; sourceTree = "<group>"; };
+		632265B7173815BD00E6C34F /* Colic 11x17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colic 11x17.png"; sourceTree = "<group>"; };
+		6386119117281F9400C61B5D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "Images/main images/home.png"; sourceTree = "<group>"; };
+		6386119217281F9400C61B5D /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse.png; path = "Images/main images/horse.png"; sourceTree = "<group>"; };
+		6386119317281F9400C61B5D /* phone-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "phone-book.png"; path = "Images/main images/phone-book.png"; sourceTree = "<group>"; };
+		6386119417281F9400C61B5D /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = "Images/main images/question.png"; sourceTree = "<group>"; };
+		6386119517281F9400C61B5D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = "Images/main images/sun.png"; sourceTree = "<group>"; };
+		6386119B1728236000C61B5D /* mainscreenlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainscreenlogo@2x.png"; path = "Images/main images/mainscreenlogo@2x.png"; sourceTree = "<group>"; };
+		6386119C1728236000C61B5D /* mainscreenlogo@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainscreenlogo@2x~iPad.png"; path = "Images/main images/mainscreenlogo@2x~iPad.png"; sourceTree = "<group>"; };
+		6386119D1728236000C61B5D /* mainscreenlogo~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainscreenlogo~iPad.png"; path = "Images/main images/mainscreenlogo~iPad.png"; sourceTree = "<group>"; };
+		6386119E1728236000C61B5D /* photonic_healt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photonic_healt@2x.png"; path = "Images/main images/photonic_healt@2x.png"; sourceTree = "<group>"; };
+		6386119F1728236000C61B5D /* photonic_healt@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photonic_healt@2x~iPad.png"; path = "Images/main images/photonic_healt@2x~iPad.png"; sourceTree = "<group>"; };
+		638611A01728236000C61B5D /* photonic_healt~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photonic_healt~iPad.png"; path = "Images/main images/photonic_healt~iPad.png"; sourceTree = "<group>"; };
+		638611A717282D2300C61B5D /* EAContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAContactsViewController.h; path = Controller/EAContactsViewController.h; sourceTree = "<group>"; };
+		638611A817282D2300C61B5D /* EAContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAContactsViewController.m; path = Controller/EAContactsViewController.m; sourceTree = "<group>"; };
+		638611AA17282F4600C61B5D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		638611AD17283DDD00C61B5D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		638611AE17283DDD00C61B5D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		638611AF17283DDD00C61B5D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		638611B31728413A00C61B5D /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		638611B41728413A00C61B5D /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		638611B51728413A00C61B5D /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		638611B61728413A00C61B5D /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		638611B81728413A00C61B5D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		638611B91728413A00C61B5D /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		638611BA1728413A00C61B5D /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
+		6390C20B1735653100EBF73C /* Colic 11x17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Colic 11x17.pdf"; sourceTree = "<group>"; };
+		6390C20D173567BE00EBF73C /* hyoid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyoid.jpg; sourceTree = "<group>"; };
+		6390C20F1735717200EBF73C /* bladder_meridian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bladder_meridian.jpg; sourceTree = "<group>"; };
+		6390C2141735717200EBF73C /* conception_vessel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = conception_vessel.jpg; sourceTree = "<group>"; };
+		6390C2151735717200EBF73C /* gall_bladder_meridian_gb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gall_bladder_meridian_gb.jpg; sourceTree = "<group>"; };
+		6390C2161735717200EBF73C /* governing_vessel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = governing_vessel1.jpg; sourceTree = "<group>"; };
+		6390C2171735717200EBF73C /* governing_vessel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = governing_vessel2.jpg; sourceTree = "<group>"; };
+		6390C2181735717200EBF73C /* heart_meridian_ht.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart_meridian_ht.jpg; sourceTree = "<group>"; };
+		6390C2191735717200EBF73C /* kidney_meridian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidney_meridian.jpg; sourceTree = "<group>"; };
+		6390C21A1735717200EBF73C /* large_intestine_meridian_li.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_intestine_meridian_li.jpg; sourceTree = "<group>"; };
+		6390C21B1735717200EBF73C /* liver_meridian_li.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liver_meridian_li.jpg; sourceTree = "<group>"; };
+		6390C21C1735717200EBF73C /* lung_meridian_lu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lung_meridian_lu.jpg; sourceTree = "<group>"; };
+		6390C21D1735717200EBF73C /* pericardium_meridian_pc_or_pe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pericardium_meridian_pc_or_pe.jpg; sourceTree = "<group>"; };
+		6390C21E1735717200EBF73C /* small_intestine_meridian_si.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = small_intestine_meridian_si.jpg; sourceTree = "<group>"; };
+		6390C21F1735717200EBF73C /* spleen_meridian_sp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spleen_meridian_sp.jpg; sourceTree = "<group>"; };
+		6390C2201735717200EBF73C /* stomach_meridian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stomach_meridian.jpg; sourceTree = "<group>"; };
+		6390C2211735717200EBF73C /* triple_heater_meridian_th.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = triple_heater_meridian_th.jpg; sourceTree = "<group>"; };
+		6390C2341735728900EBF73C /* emergency_points.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emergency_points.jpg; sourceTree = "<group>"; };
+		6390C2361735783000EBF73C /* back_feet_caudial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_feet_caudial.jpg; sourceTree = "<group>"; };
+		6390C2371735783000EBF73C /* back_feet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_feet.jpg; sourceTree = "<group>"; };
+		6390C23C1735783100EBF73C /* front_feet_caudial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front_feet_caudial.jpg; sourceTree = "<group>"; };
+		6390C23D1735783100EBF73C /* front_feet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front_feet.jpg; sourceTree = "<group>"; };
+		6390C23E1735783100EBF73C /* red_light_therapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_light_therapy.jpg; sourceTree = "<group>"; };
+		6390C247173579FF00EBF73C /* Horse assessment instructions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Horse assessment instructions.pdf"; sourceTree = "<group>"; };
+		63B3715D172AC12200D1707F /* iphone3Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone3Icon.png; sourceTree = "<group>"; };
+		63B3715F172AC12900D1707F /* iphone5Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5Icon.png; sourceTree = "<group>"; };
+		63EF4FBE173AB78800C384FE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		63EF4FBF173AB78800C384FE /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		63F519131726BA5100B88CA7 /* Photonic Horse Acupoint & Red Light therapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photonic Horse Acupoint & Red Light therapy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F519161726BA5100B88CA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63F519181726BA5200B88CA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63F5191A1726BA5200B88CA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F5191E1726BA5200B88CA7 /* EquineAcupoints-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EquineAcupoints-Info.plist"; sourceTree = "<group>"; };
+		63F519201726BA5200B88CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63F519221726BA5200B88CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F519241726BA5200B88CA7 /* EquineAcupoints-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EquineAcupoints-Prefix.pch"; sourceTree = "<group>"; };
+		63F519251726BA5200B88CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63F519261726BA5200B88CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63F519281726BA5200B88CA7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63F5192A1726BA5200B88CA7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63F5192C1726BA5200B88CA7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63F5192F1726BA5200B88CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		63F519321726BA5200B88CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		63F519341726BA5200B88CA7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		63F519351726BA5200B88CA7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		63F519371726BA5200B88CA7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		63F519391726BA5200B88CA7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		63F5193B1726BA5200B88CA7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		63F5193C1726BA5200B88CA7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		63F5193E1726BA5200B88CA7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		63F519401726BA5200B88CA7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		63F5194A1726C3D700B88CA7 /* mainscreenlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainscreenlogo.png; path = "Images/main images/mainscreenlogo.png"; sourceTree = "<group>"; };
+		63F5194D1726C86900B88CA7 /* EABladderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EABladderViewController.h; path = Controller/EABladderViewController.h; sourceTree = "<group>"; };
+		63F5194E1726C86900B88CA7 /* EABladderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EABladderViewController.m; path = Controller/EABladderViewController.m; sourceTree = "<group>"; };
+		63F519501726C8D500B88CA7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		63F519531726CCE600B88CA7 /* Photonic_Health-Bladder_Opening.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Photonic_Health-Bladder_Opening.mp4"; path = " video/Photonic_Health-Bladder_Opening.mp4"; sourceTree = "<group>"; };
+		63F519581726D85700B88CA7 /* EABladderViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EABladderViewController_iPhoneViewController.h; path = Controller/EABladderViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F519591726D85700B88CA7 /* EABladderViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EABladderViewController_iPhoneViewController.m; path = Controller/EABladderViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F5195C1726D9E800B88CA7 /* assessments.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = assessments.html; path = html/assessments.html; sourceTree = "<group>"; };
+		63F5195E1726DA5300B88CA7 /* EAAssessmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAAssessmentsViewController.h; path = Controller/EAAssessmentsViewController.h; sourceTree = "<group>"; };
+		63F5195F1726DA5300B88CA7 /* EAAssessmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAAssessmentsViewController.m; path = Controller/EAAssessmentsViewController.m; sourceTree = "<group>"; };
+		63F519611726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAAssessmentsViewController_iPhoneViewController.h; path = Controller/EAAssessmentsViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F519621726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAAssessmentsViewController_iPhoneViewController.m; path = Controller/EAAssessmentsViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F519641726FA3000B88CA7 /* charts_introductory_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_introductory_points.html; path = html/charts_introductory_points.html; sourceTree = "<group>"; };
+		63F519661726FA6C00B88CA7 /* charts_wellness_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_wellness_points.html; path = html/charts_wellness_points.html; sourceTree = "<group>"; };
+		63F519681726FA9400B88CA7 /* charts_colic_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_colic_points.html; path = html/charts_colic_points.html; sourceTree = "<group>"; };
+		63F5196A1726FAAE00B88CA7 /* charts_emergency_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_emergency_points.html; path = html/charts_emergency_points.html; sourceTree = "<group>"; };
+		63F5196C1726FAD000B88CA7 /* charts_low_back_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_low_back_points.html; path = html/charts_low_back_points.html; sourceTree = "<group>"; };
+		63F5196E1726FB8400B88CA7 /* charts_laminitis_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_laminitis_points.html; path = html/charts_laminitis_points.html; sourceTree = "<group>"; };
+		63F519701726FBAD00B88CA7 /* charts_stifle_chart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_stifle_chart.html; path = html/charts_stifle_chart.html; sourceTree = "<group>"; };
+		63F519721726FBCF00B88CA7 /* charts_shoulder_points.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_shoulder_points.html; path = html/charts_shoulder_points.html; sourceTree = "<group>"; };
+		63F519741726FBF500B88CA7 /* charts_hyoid_tmj_chart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = charts_hyoid_tmj_chart.html; path = html/charts_hyoid_tmj_chart.html; sourceTree = "<group>"; };
+		63F519761726FCE400B88CA7 /* EAChartsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAChartsTableViewController.h; path = Controller/EAChartsTableViewController.h; sourceTree = "<group>"; };
+		63F519771726FCE400B88CA7 /* EAChartsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAChartsTableViewController.m; path = Controller/EAChartsTableViewController.m; sourceTree = "<group>"; };
+		63F519791726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAChartsTableViewController_iPhoneViewController.h; path = Controller/EAChartsTableViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F5197A1726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAChartsTableViewController_iPhoneViewController.m; path = Controller/EAChartsTableViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F5197C1726FDBD00B88CA7 /* EAChartsWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAChartsWebViewViewController.h; path = Controller/EAChartsWebViewViewController.h; sourceTree = "<group>"; };
+		63F5197D1726FDBD00B88CA7 /* EAChartsWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAChartsWebViewViewController.m; path = Controller/EAChartsWebViewViewController.m; sourceTree = "<group>"; };
+		63F5197F1726FDFE00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAChartsWebViewViewController_iPhoneViewController.h; path = Controller/EAChartsWebViewViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F519801726FDFF00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAChartsWebViewViewController_iPhoneViewController.m; path = Controller/EAChartsWebViewViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F519821727085600B88CA7 /* meridians_governing_vessel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_governing_vessel.html; path = html/meridians_governing_vessel.html; sourceTree = "<group>"; };
+		63F51990172709E800B88CA7 /* meridians_heart_meridian_ht.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_heart_meridian_ht.html; path = html/meridians_heart_meridian_ht.html; sourceTree = "<group>"; };
+		63F5199217270A1E00B88CA7 /* meridians_small_intestine_meridian_si.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_small_intestine_meridian_si.html; path = html/meridians_small_intestine_meridian_si.html; sourceTree = "<group>"; };
+		63F5199417270A6000B88CA7 /* meridians_pericardium_meridian_pc_or_pe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_pericardium_meridian_pc_or_pe.html; path = html/meridians_pericardium_meridian_pc_or_pe.html; sourceTree = "<group>"; };
+		63F5199817270AC500B88CA7 /* meridians_gall_bladder_meridian_gb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_gall_bladder_meridian_gb.html; path = html/meridians_gall_bladder_meridian_gb.html; sourceTree = "<group>"; };
+		63F5199A17270AF600B88CA7 /* meridians_liver_meridian_li.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_liver_meridian_li.html; path = html/meridians_liver_meridian_li.html; sourceTree = "<group>"; };
+		63F5199C17270B2400B88CA7 /* meridians_kidney_meridian.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_kidney_meridian.html; path = html/meridians_kidney_meridian.html; sourceTree = "<group>"; };
+		63F5199E17270B6000B88CA7 /* meridians_bladder_meridian_bi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_bladder_meridian_bi.html; path = html/meridians_bladder_meridian_bi.html; sourceTree = "<group>"; };
+		63F5199F17270B6000B88CA7 /* meridians_conception_vessel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_conception_vessel.html; path = html/meridians_conception_vessel.html; sourceTree = "<group>"; };
+		63F519A017270B6200B88CA7 /* meridians_large_intestine_meridian_li.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_large_intestine_meridian_li.html; path = html/meridians_large_intestine_meridian_li.html; sourceTree = "<group>"; };
+		63F519A117270B6300B88CA7 /* meridians_lung_meridian_lu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_lung_meridian_lu.html; path = html/meridians_lung_meridian_lu.html; sourceTree = "<group>"; };
+		63F519A217270B6400B88CA7 /* meridians_spleen_meridian_sp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_spleen_meridian_sp.html; path = html/meridians_spleen_meridian_sp.html; sourceTree = "<group>"; };
+		63F519A317270B6500B88CA7 /* meridians_stomach_meridian.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_stomach_meridian.html; path = html/meridians_stomach_meridian.html; sourceTree = "<group>"; };
+		63F519A417270B6600B88CA7 /* meridians_triple_heater_meridian_th.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = meridians_triple_heater_meridian_th.html; path = html/meridians_triple_heater_meridian_th.html; sourceTree = "<group>"; };
+		63F519AC17270D5B00B88CA7 /* EAMeridiansTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAMeridiansTableViewController.h; path = Controller/EAMeridiansTableViewController.h; sourceTree = "<group>"; };
+		63F519AD17270D5B00B88CA7 /* EAMeridiansTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAMeridiansTableViewController.m; path = Controller/EAMeridiansTableViewController.m; sourceTree = "<group>"; };
+		63F519AF17270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAMeridiansTableViewController_iPhoneViewController.h; path = Controller/EAMeridiansTableViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F519B017270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAMeridiansTableViewController_iPhoneViewController.m; path = Controller/EAMeridiansTableViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F519B21727185600B88CA7 /* EAHomePageWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAHomePageWebViewController.h; path = Controller/EAHomePageWebViewController.h; sourceTree = "<group>"; };
+		63F519B31727185700B88CA7 /* EAHomePageWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAHomePageWebViewController.m; path = Controller/EAHomePageWebViewController.m; sourceTree = "<group>"; };
+		63F519B517271A2500B88CA7 /* EATingPointsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EATingPointsTableViewController.h; path = Controller/EATingPointsTableViewController.h; sourceTree = "<group>"; };
+		63F519B617271A2500B88CA7 /* EATingPointsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EATingPointsTableViewController.m; path = Controller/EATingPointsTableViewController.m; sourceTree = "<group>"; };
+		63F519B817271A7A00B88CA7 /* ting_intro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ting_intro.html; path = html/ting_intro.html; sourceTree = "<group>"; };
+		63F519BA17271AA200B88CA7 /* ting_front_feet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ting_front_feet.html; path = html/ting_front_feet.html; sourceTree = "<group>"; };
+		63F519BC17271AE500B88CA7 /* ting_front_feet_caudial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ting_front_feet_caudial.html; path = html/ting_front_feet_caudial.html; sourceTree = "<group>"; };
+		63F519BE17271B1A00B88CA7 /* ting_back_feet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ting_back_feet.html; path = html/ting_back_feet.html; sourceTree = "<group>"; };
+		63F519C017271B5600B88CA7 /* ting_back_feet_caudal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ting_back_feet_caudal.html; path = html/ting_back_feet_caudal.html; sourceTree = "<group>"; };
+		63F519C217271E6D00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EATingPointsTableViewController_iPhoneViewController.h; path = Controller/EATingPointsTableViewController_iPhoneViewController.h; sourceTree = "<group>"; };
+		63F519C317271E6D00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EATingPointsTableViewController_iPhoneViewController.m; path = Controller/EATingPointsTableViewController_iPhoneViewController.m; sourceTree = "<group>"; };
+		63F519C81727210E00B88CA7 /* EARedLightTherapyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EARedLightTherapyViewController.h; path = Controller/EARedLightTherapyViewController.h; sourceTree = "<group>"; };
+		63F519C91727210F00B88CA7 /* EARedLightTherapyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EARedLightTherapyViewController.m; path = Controller/EARedLightTherapyViewController.m; sourceTree = "<group>"; };
+		63F519CB172721FB00B88CA7 /* red_light_therapy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = red_light_therapy.html; path = html/red_light_therapy.html; sourceTree = "<group>"; };
+		63F519CD172722FA00B88CA7 /* EAFAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAFAQViewController.h; path = Controller/EAFAQViewController.h; sourceTree = "<group>"; };
+		63F519CE172722FB00B88CA7 /* EAFAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAFAQViewController.m; path = Controller/EAFAQViewController.m; sourceTree = "<group>"; };
+		63F519D01727231C00B88CA7 /* FAQ.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = FAQ.html; path = html/FAQ.html; sourceTree = "<group>"; };
+		63F519D21727263D00B88CA7 /* UIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIMainViewController.h; path = Controller/UIMainViewController.h; sourceTree = "<group>"; };
+		63F519D31727263E00B88CA7 /* UIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIMainViewController.m; path = Controller/UIMainViewController.m; sourceTree = "<group>"; };
+		63F519D51727279D00B88CA7 /* photonic_healt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photonic_healt.png; path = "Images/main images/photonic_healt.png"; sourceTree = "<group>"; };
+		63F53F1F17330CD4000D670C /* Back and Hip Soreness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Back and Hip Soreness.jpg"; sourceTree = "<group>"; };
+		63F53F2017330CD4000D670C /* Bladder meridian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bladder meridian.jpg"; sourceTree = "<group>"; };
+		63F53F2217330CD4000D670C /* Acr4992898057768-4510.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acr4992898057768-4510.png"; sourceTree = "<group>"; };
+		63F53F2317330CD4000D670C /* Acr499289805776819699.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acr499289805776819699.png; sourceTree = "<group>"; };
+		63F53F2417330CD4000D670C /* Acr49928980577683912.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acr49928980577683912.png; sourceTree = "<group>"; };
+		63F53F2517330CD4000D670C /* Conception Vessel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Conception Vessel.jpg"; sourceTree = "<group>"; };
+		63F53F2617330CD4000D670C /* Intro Points.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intro Points.pdf"; sourceTree = "<group>"; };
+		63F53F2817330CD4000D670C /* Laminitis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laminitis.jpg; sourceTree = "<group>"; };
+		63F53F2917330CD4000D670C /* Navicular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Navicular.jpg; sourceTree = "<group>"; };
+		63F53F2A17330CD4000D670C /* Shoulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shoulder.jpg; sourceTree = "<group>"; };
+		63F53F2B17330CD4000D670C /* Stifle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Stifle.pdf; sourceTree = "<group>"; };
+		63F53F2C17330CD4000D670C /* Stifle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stifle.png; sourceTree = "<group>"; };
+		63F53F2D17330CD4000D670C /* Wellness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wellness.jpg; sourceTree = "<group>"; };
+		63F53F3C17330EF0000D670C /* IntroPoints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntroPoints.png; sourceTree = "<group>"; };
+		63FF2BC317394A8C00E5A94D /* EANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EANavigationController.h; path = Controller/EANavigationController.h; sourceTree = "<group>"; };
+		63FF2BC417394A8C00E5A94D /* EANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EANavigationController.m; path = Controller/EANavigationController.m; sourceTree = "<group>"; };
+		63FF2BC617394AAA00E5A94D /* EATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EATabBarController.h; path = Controller/EATabBarController.h; sourceTree = "<group>"; };
+		63FF2BC717394AAA00E5A94D /* EATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EATabBarController.m; path = Controller/EATabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F519101726BA5100B88CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638611AB17282F4600C61B5D /* MessageUI.framework in Frameworks */,
+				63F519511726C8D500B88CA7 /* MediaPlayer.framework in Frameworks */,
+				63F519171726BA5200B88CA7 /* UIKit.framework in Frameworks */,
+				63F519191726BA5200B88CA7 /* Foundation.framework in Frameworks */,
+				63F5191B1726BA5200B88CA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		638611AC17283DDD00C61B5D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				638611AD17283DDD00C61B5D /* SVProgressHUD.bundle */,
+				638611AE17283DDD00C61B5D /* SVProgressHUD.h */,
+				638611AF17283DDD00C61B5D /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		638611B21728413A00C61B5D /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				638611B31728413A00C61B5D /* BButton.h */,
+				638611B41728413A00C61B5D /* BButton.m */,
+				638611B51728413A00C61B5D /* NSString+FontAwesome.h */,
+				638611B61728413A00C61B5D /* NSString+FontAwesome.m */,
+				638611B71728413A00C61B5D /* resources */,
+				638611B91728413A00C61B5D /* UIColor+BButton.h */,
+				638611BA1728413A00C61B5D /* UIColor+BButton.m */,
+			);
+			path = BButton;
+			sourceTree = "<group>";
+		};
+		638611B71728413A00C61B5D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				638611B81728413A00C61B5D /* FontAwesome.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		63F5190A1726BA5100B88CA7 = {
+			isa = PBXGroup;
+			children = (
+				63B3715F172AC12900D1707F /* iphone5Icon.png */,
+				63B3715D172AC12200D1707F /* iphone3Icon.png */,
+				638611AA17282F4600C61B5D /* MessageUI.framework */,
+				63F519501726C8D500B88CA7 /* MediaPlayer.framework */,
+				63F5191C1726BA5200B88CA7 /* EquineAcupoints */,
+				63F519151726BA5100B88CA7 /* Frameworks */,
+				63F519141726BA5100B88CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F519141726BA5100B88CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F519131726BA5100B88CA7 /* Photonic Horse Acupoint & Red Light therapy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F519151726BA5100B88CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F519161726BA5100B88CA7 /* UIKit.framework */,
+				63F519181726BA5200B88CA7 /* Foundation.framework */,
+				63F5191A1726BA5200B88CA7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63F5191C1726BA5200B88CA7 /* EquineAcupoints */ = {
+			isa = PBXGroup;
+			children = (
+				63EF4FBE173AB78800C384FE /* iTunesArtwork */,
+				63EF4FBF173AB78800C384FE /* iTunesArtwork@2x */,
+				638611B21728413A00C61B5D /* BButton */,
+				638611AC17283DDD00C61B5D /* SVProgressHUD */,
+				63F519471726C20500B88CA7 /* Controller */,
+				63F519251726BA5200B88CA7 /* AppDelegate.h */,
+				63F519261726BA5200B88CA7 /* AppDelegate.m */,
+				63F5192E1726BA5200B88CA7 /* MainStoryboard_iPhone.storyboard */,
+				63F519311726BA5200B88CA7 /* MainStoryboard_iPad.storyboard */,
+				63F519341726BA5200B88CA7 /* FirstViewController.h */,
+				63F519351726BA5200B88CA7 /* FirstViewController.m */,
+				63F519371726BA5200B88CA7 /* first.png */,
+				63F519391726BA5200B88CA7 /* first@2x.png */,
+				63F5193B1726BA5200B88CA7 /* SecondViewController.h */,
+				63F5193C1726BA5200B88CA7 /* SecondViewController.m */,
+				63F5193E1726BA5200B88CA7 /* second.png */,
+				63F519401726BA5200B88CA7 /* second@2x.png */,
+				63F5191D1726BA5200B88CA7 /* Supporting Files */,
+			);
+			path = EquineAcupoints;
+			sourceTree = "<group>";
+		};
+		63F5191D1726BA5200B88CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F5195B1726D9C200B88CA7 /* html */,
+				63F519521726CCDA00B88CA7 /* video */,
+				63F519481726C38200B88CA7 /* images */,
+				63F5191E1726BA5200B88CA7 /* EquineAcupoints-Info.plist */,
+				63F5191F1726BA5200B88CA7 /* InfoPlist.strings */,
+				63F519221726BA5200B88CA7 /* main.m */,
+				63F519241726BA5200B88CA7 /* EquineAcupoints-Prefix.pch */,
+				63F519281726BA5200B88CA7 /* Default.png */,
+				63F5192A1726BA5200B88CA7 /* Default@2x.png */,
+				63F5192C1726BA5200B88CA7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F519471726C20500B88CA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F5194C1726C82400B88CA7 /* iPhone */,
+				63F519571726D83100B88CA7 /* iPad */,
+				63F5194D1726C86900B88CA7 /* EABladderViewController.h */,
+				63F5194E1726C86900B88CA7 /* EABladderViewController.m */,
+				63F5195E1726DA5300B88CA7 /* EAAssessmentsViewController.h */,
+				63F5195F1726DA5300B88CA7 /* EAAssessmentsViewController.m */,
+				63F519761726FCE400B88CA7 /* EAChartsTableViewController.h */,
+				63F519771726FCE400B88CA7 /* EAChartsTableViewController.m */,
+				63F5197C1726FDBD00B88CA7 /* EAChartsWebViewViewController.h */,
+				63F5197D1726FDBD00B88CA7 /* EAChartsWebViewViewController.m */,
+				63F519AC17270D5B00B88CA7 /* EAMeridiansTableViewController.h */,
+				63F519AD17270D5B00B88CA7 /* EAMeridiansTableViewController.m */,
+				63F519B21727185600B88CA7 /* EAHomePageWebViewController.h */,
+				63F519B31727185700B88CA7 /* EAHomePageWebViewController.m */,
+				63F519B517271A2500B88CA7 /* EATingPointsTableViewController.h */,
+				63F519B617271A2500B88CA7 /* EATingPointsTableViewController.m */,
+				63F519C81727210E00B88CA7 /* EARedLightTherapyViewController.h */,
+				63F519C91727210F00B88CA7 /* EARedLightTherapyViewController.m */,
+				63F519CD172722FA00B88CA7 /* EAFAQViewController.h */,
+				63F519CE172722FB00B88CA7 /* EAFAQViewController.m */,
+				63F519D21727263D00B88CA7 /* UIMainViewController.h */,
+				63F519D31727263E00B88CA7 /* UIMainViewController.m */,
+				63FF2BC317394A8C00E5A94D /* EANavigationController.h */,
+				63FF2BC417394A8C00E5A94D /* EANavigationController.m */,
+				63FF2BC617394AAA00E5A94D /* EATabBarController.h */,
+				63FF2BC717394AAA00E5A94D /* EATabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		63F519481726C38200B88CA7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				63F53F1E17330CD4000D670C /* Charts */,
+				63F519491726C3C600B88CA7 /* main image */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		63F519491726C3C600B88CA7 /* main image */ = {
+			isa = PBXGroup;
+			children = (
+				6386119B1728236000C61B5D /* mainscreenlogo@2x.png */,
+				6386119C1728236000C61B5D /* mainscreenlogo@2x~iPad.png */,
+				6386119D1728236000C61B5D /* mainscreenlogo~iPad.png */,
+				6386119E1728236000C61B5D /* photonic_healt@2x.png */,
+				6386119F1728236000C61B5D /* photonic_healt@2x~iPad.png */,
+				638611A01728236000C61B5D /* photonic_healt~iPad.png */,
+				6386119117281F9400C61B5D /* home.png */,
+				6386119217281F9400C61B5D /* horse.png */,
+				6386119317281F9400C61B5D /* phone-book.png */,
+				6386119417281F9400C61B5D /* question.png */,
+				6386119517281F9400C61B5D /* sun.png */,
+				63F519D51727279D00B88CA7 /* photonic_healt.png */,
+				63F5194A1726C3D700B88CA7 /* mainscreenlogo.png */,
+			);
+			name = "main image";
+			sourceTree = "<group>";
+		};
+		63F5194C1726C82400B88CA7 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				63F519581726D85700B88CA7 /* EABladderViewController_iPhoneViewController.h */,
+				63F519591726D85700B88CA7 /* EABladderViewController_iPhoneViewController.m */,
+				63F519611726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.h */,
+				63F519621726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.m */,
+				63F519791726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.h */,
+				63F5197A1726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.m */,
+				63F5197F1726FDFE00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.h */,
+				63F519801726FDFF00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.m */,
+				63F519AF17270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.h */,
+				63F519B017270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.m */,
+				63F519C217271E6D00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.h */,
+				63F519C317271E6D00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.m */,
+				638611A717282D2300C61B5D /* EAContactsViewController.h */,
+				638611A817282D2300C61B5D /* EAContactsViewController.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		63F519521726CCDA00B88CA7 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				63F519531726CCE600B88CA7 /* Photonic_Health-Bladder_Opening.mp4 */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+		63F519571726D83100B88CA7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		63F5195B1726D9C200B88CA7 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				63F5195C1726D9E800B88CA7 /* assessments.html */,
+				63F519641726FA3000B88CA7 /* charts_introductory_points.html */,
+				63F519661726FA6C00B88CA7 /* charts_wellness_points.html */,
+				63F519681726FA9400B88CA7 /* charts_colic_points.html */,
+				63F5196A1726FAAE00B88CA7 /* charts_emergency_points.html */,
+				63F5196C1726FAD000B88CA7 /* charts_low_back_points.html */,
+				63F5196E1726FB8400B88CA7 /* charts_laminitis_points.html */,
+				63F519701726FBAD00B88CA7 /* charts_stifle_chart.html */,
+				63F519721726FBCF00B88CA7 /* charts_shoulder_points.html */,
+				63F519741726FBF500B88CA7 /* charts_hyoid_tmj_chart.html */,
+				63F519821727085600B88CA7 /* meridians_governing_vessel.html */,
+				63F5199F17270B6000B88CA7 /* meridians_conception_vessel.html */,
+				63F5199E17270B6000B88CA7 /* meridians_bladder_meridian_bi.html */,
+				63F519A117270B6300B88CA7 /* meridians_lung_meridian_lu.html */,
+				63F519A017270B6200B88CA7 /* meridians_large_intestine_meridian_li.html */,
+				63F519A317270B6500B88CA7 /* meridians_stomach_meridian.html */,
+				63F519A217270B6400B88CA7 /* meridians_spleen_meridian_sp.html */,
+				63F51990172709E800B88CA7 /* meridians_heart_meridian_ht.html */,
+				63F5199217270A1E00B88CA7 /* meridians_small_intestine_meridian_si.html */,
+				63F5199417270A6000B88CA7 /* meridians_pericardium_meridian_pc_or_pe.html */,
+				63F519A417270B6600B88CA7 /* meridians_triple_heater_meridian_th.html */,
+				63F5199817270AC500B88CA7 /* meridians_gall_bladder_meridian_gb.html */,
+				63F5199A17270AF600B88CA7 /* meridians_liver_meridian_li.html */,
+				63F5199C17270B2400B88CA7 /* meridians_kidney_meridian.html */,
+				63F519B817271A7A00B88CA7 /* ting_intro.html */,
+				63F519BA17271AA200B88CA7 /* ting_front_feet.html */,
+				63F519BC17271AE500B88CA7 /* ting_front_feet_caudial.html */,
+				63F519BE17271B1A00B88CA7 /* ting_back_feet.html */,
+				63F519C017271B5600B88CA7 /* ting_back_feet_caudal.html */,
+				63F519CB172721FB00B88CA7 /* red_light_therapy.html */,
+				63F519D01727231C00B88CA7 /* FAQ.html */,
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+		63F53F1E17330CD4000D670C /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				632265B7173815BD00E6C34F /* Colic 11x17.png */,
+				632265B317380DE400E6C34F /* Horse assessment instructions-2.png */,
+				632265B417380DE400E6C34F /* Horse assessment instructions-3.png */,
+				6390C247173579FF00EBF73C /* Horse assessment instructions.pdf */,
+				6390C2361735783000EBF73C /* back_feet_caudial.jpg */,
+				6390C2371735783000EBF73C /* back_feet.jpg */,
+				6390C23C1735783100EBF73C /* front_feet_caudial.jpg */,
+				6390C23D1735783100EBF73C /* front_feet.jpg */,
+				6390C23E1735783100EBF73C /* red_light_therapy.jpg */,
+				6390C2341735728900EBF73C /* emergency_points.jpg */,
+				6390C20F1735717200EBF73C /* bladder_meridian.jpg */,
+				6390C2141735717200EBF73C /* conception_vessel.jpg */,
+				6390C2151735717200EBF73C /* gall_bladder_meridian_gb.jpg */,
+				6390C2161735717200EBF73C /* governing_vessel1.jpg */,
+				6390C2171735717200EBF73C /* governing_vessel2.jpg */,
+				6390C2181735717200EBF73C /* heart_meridian_ht.jpg */,
+				6390C2191735717200EBF73C /* kidney_meridian.jpg */,
+				6390C21A1735717200EBF73C /* large_intestine_meridian_li.jpg */,
+				6390C21B1735717200EBF73C /* liver_meridian_li.jpg */,
+				6390C21C1735717200EBF73C /* lung_meridian_lu.jpg */,
+				6390C21D1735717200EBF73C /* pericardium_meridian_pc_or_pe.jpg */,
+				6390C21E1735717200EBF73C /* small_intestine_meridian_si.jpg */,
+				6390C21F1735717200EBF73C /* spleen_meridian_sp.jpg */,
+				6390C2201735717200EBF73C /* stomach_meridian.jpg */,
+				6390C2211735717200EBF73C /* triple_heater_meridian_th.jpg */,
+				6390C20D173567BE00EBF73C /* hyoid.jpg */,
+				6390C20B1735653100EBF73C /* Colic 11x17.pdf */,
+				63F53F3C17330EF0000D670C /* IntroPoints.png */,
+				63F53F1F17330CD4000D670C /* Back and Hip Soreness.jpg */,
+				63F53F2017330CD4000D670C /* Bladder meridian.jpg */,
+				63F53F2117330CD4000D670C /* colic */,
+				63F53F2517330CD4000D670C /* Conception Vessel.jpg */,
+				63F53F2617330CD4000D670C /* Intro Points.pdf */,
+				63F53F2817330CD4000D670C /* Laminitis.jpg */,
+				63F53F2917330CD4000D670C /* Navicular.jpg */,
+				63F53F2A17330CD4000D670C /* Shoulder.jpg */,
+				63F53F2B17330CD4000D670C /* Stifle.pdf */,
+				63F53F2C17330CD4000D670C /* Stifle.png */,
+				63F53F2D17330CD4000D670C /* Wellness.jpg */,
+			);
+			name = Charts;
+			path = Images/Charts;
+			sourceTree = "<group>";
+		};
+		63F53F2117330CD4000D670C /* colic */ = {
+			isa = PBXGroup;
+			children = (
+				63F53F2217330CD4000D670C /* Acr4992898057768-4510.png */,
+				63F53F2317330CD4000D670C /* Acr499289805776819699.png */,
+				63F53F2417330CD4000D670C /* Acr49928980577683912.png */,
+			);
+			path = colic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F519121726BA5100B88CA7 /* Photonic Horse Acupoint & Red Light therapy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F519441726BA5200B88CA7 /* Build configuration list for PBXNativeTarget "Photonic Horse Acupoint & Red Light therapy" */;
+			buildPhases = (
+				63F5190F1726BA5100B88CA7 /* Sources */,
+				63F519101726BA5100B88CA7 /* Frameworks */,
+				63F519111726BA5100B88CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photonic Horse Acupoint & Red Light therapy";
+			productName = EquineAcupoints;
+			productReference = 63F519131726BA5100B88CA7 /* Photonic Horse Acupoint & Red Light therapy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F5190B1726BA5100B88CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aik Ampardjian";
+			};
+			buildConfigurationList = 63F5190E1726BA5100B88CA7 /* Build configuration list for PBXProject "EquineAcupoints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63F5190A1726BA5100B88CA7;
+			productRefGroup = 63F519141726BA5100B88CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F519121726BA5100B88CA7 /* Photonic Horse Acupoint & Red Light therapy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F519111726BA5100B88CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F519211726BA5200B88CA7 /* InfoPlist.strings in Resources */,
+				63F519291726BA5200B88CA7 /* Default.png in Resources */,
+				63F5192B1726BA5200B88CA7 /* Default@2x.png in Resources */,
+				63F5192D1726BA5200B88CA7 /* Default-568h@2x.png in Resources */,
+				63F519301726BA5200B88CA7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				63F519331726BA5200B88CA7 /* MainStoryboard_iPad.storyboard in Resources */,
+				63F519381726BA5200B88CA7 /* first.png in Resources */,
+				63F5193A1726BA5200B88CA7 /* first@2x.png in Resources */,
+				63F5193F1726BA5200B88CA7 /* second.png in Resources */,
+				63F519411726BA5200B88CA7 /* second@2x.png in Resources */,
+				63F5194B1726C3D700B88CA7 /* mainscreenlogo.png in Resources */,
+				63F519541726CCE600B88CA7 /* Photonic_Health-Bladder_Opening.mp4 in Resources */,
+				63F5195D1726D9E800B88CA7 /* assessments.html in Resources */,
+				63F519651726FA3000B88CA7 /* charts_introductory_points.html in Resources */,
+				63F519671726FA6C00B88CA7 /* charts_wellness_points.html in Resources */,
+				63F519691726FA9400B88CA7 /* charts_colic_points.html in Resources */,
+				63F5196B1726FAAE00B88CA7 /* charts_emergency_points.html in Resources */,
+				63F5196D1726FAD100B88CA7 /* charts_low_back_points.html in Resources */,
+				63F5196F1726FB8400B88CA7 /* charts_laminitis_points.html in Resources */,
+				63F519711726FBAD00B88CA7 /* charts_stifle_chart.html in Resources */,
+				63F519731726FBCF00B88CA7 /* charts_shoulder_points.html in Resources */,
+				63F519751726FBF500B88CA7 /* charts_hyoid_tmj_chart.html in Resources */,
+				63F519831727085700B88CA7 /* meridians_governing_vessel.html in Resources */,
+				63F51991172709E800B88CA7 /* meridians_heart_meridian_ht.html in Resources */,
+				63F5199317270A1F00B88CA7 /* meridians_small_intestine_meridian_si.html in Resources */,
+				63F5199517270A6100B88CA7 /* meridians_pericardium_meridian_pc_or_pe.html in Resources */,
+				63F5199917270AC500B88CA7 /* meridians_gall_bladder_meridian_gb.html in Resources */,
+				63F5199B17270AF600B88CA7 /* meridians_liver_meridian_li.html in Resources */,
+				63F5199D17270B2400B88CA7 /* meridians_kidney_meridian.html in Resources */,
+				63F519A517270B6800B88CA7 /* meridians_bladder_meridian_bi.html in Resources */,
+				63F519A617270B6800B88CA7 /* meridians_conception_vessel.html in Resources */,
+				63F519A717270B6800B88CA7 /* meridians_large_intestine_meridian_li.html in Resources */,
+				63F519A817270B6800B88CA7 /* meridians_lung_meridian_lu.html in Resources */,
+				63F519A917270B6800B88CA7 /* meridians_spleen_meridian_sp.html in Resources */,
+				63F519AA17270B6800B88CA7 /* meridians_stomach_meridian.html in Resources */,
+				63F519AB17270B6800B88CA7 /* meridians_triple_heater_meridian_th.html in Resources */,
+				63F519B917271A7A00B88CA7 /* ting_intro.html in Resources */,
+				63F519BB17271AA300B88CA7 /* ting_front_feet.html in Resources */,
+				63F519BD17271AE600B88CA7 /* ting_front_feet_caudial.html in Resources */,
+				63F519BF17271B1B00B88CA7 /* ting_back_feet.html in Resources */,
+				63F519C117271B5700B88CA7 /* ting_back_feet_caudal.html in Resources */,
+				63F519CC172721FC00B88CA7 /* red_light_therapy.html in Resources */,
+				63F519D11727231D00B88CA7 /* FAQ.html in Resources */,
+				63F519D61727279D00B88CA7 /* photonic_healt.png in Resources */,
+				6386119617281F9400C61B5D /* home.png in Resources */,
+				6386119717281F9400C61B5D /* horse.png in Resources */,
+				6386119817281F9400C61B5D /* phone-book.png in Resources */,
+				6386119917281F9400C61B5D /* question.png in Resources */,
+				6386119A17281F9400C61B5D /* sun.png in Resources */,
+				638611A11728236000C61B5D /* mainscreenlogo@2x.png in Resources */,
+				638611A21728236000C61B5D /* mainscreenlogo@2x~iPad.png in Resources */,
+				638611A31728236000C61B5D /* mainscreenlogo~iPad.png in Resources */,
+				638611A41728236000C61B5D /* photonic_healt@2x.png in Resources */,
+				638611A51728236000C61B5D /* photonic_healt@2x~iPad.png in Resources */,
+				638611A61728236000C61B5D /* photonic_healt~iPad.png in Resources */,
+				638611B017283DDD00C61B5D /* SVProgressHUD.bundle in Resources */,
+				638611BD1728413A00C61B5D /* FontAwesome.ttf in Resources */,
+				63B3715E172AC12200D1707F /* iphone3Icon.png in Resources */,
+				63B37160172AC12900D1707F /* iphone5Icon.png in Resources */,
+				63F53F2E17330CD4000D670C /* Back and Hip Soreness.jpg in Resources */,
+				63F53F2F17330CD4000D670C /* Bladder meridian.jpg in Resources */,
+				63F53F3017330CD4000D670C /* Acr4992898057768-4510.png in Resources */,
+				63F53F3117330CD4000D670C /* Acr499289805776819699.png in Resources */,
+				63F53F3217330CD4000D670C /* Acr49928980577683912.png in Resources */,
+				63F53F3317330CD4000D670C /* Conception Vessel.jpg in Resources */,
+				63F53F3417330CD4000D670C /* Intro Points.pdf in Resources */,
+				63F53F3617330CD4000D670C /* Laminitis.jpg in Resources */,
+				63F53F3717330CD4000D670C /* Navicular.jpg in Resources */,
+				63F53F3817330CD4000D670C /* Shoulder.jpg in Resources */,
+				63F53F3917330CD4000D670C /* Stifle.pdf in Resources */,
+				63F53F3A17330CD4000D670C /* Stifle.png in Resources */,
+				63F53F3B17330CD4000D670C /* Wellness.jpg in Resources */,
+				63F53F3D17330EF0000D670C /* IntroPoints.png in Resources */,
+				6390C20C1735653100EBF73C /* Colic 11x17.pdf in Resources */,
+				6390C20E173567BE00EBF73C /* hyoid.jpg in Resources */,
+				6390C2221735717200EBF73C /* bladder_meridian.jpg in Resources */,
+				6390C2261735717300EBF73C /* conception_vessel.jpg in Resources */,
+				6390C2271735717300EBF73C /* gall_bladder_meridian_gb.jpg in Resources */,
+				6390C2281735717300EBF73C /* governing_vessel1.jpg in Resources */,
+				6390C2291735717300EBF73C /* governing_vessel2.jpg in Resources */,
+				6390C22A1735717300EBF73C /* heart_meridian_ht.jpg in Resources */,
+				6390C22B1735717300EBF73C /* kidney_meridian.jpg in Resources */,
+				6390C22C1735717300EBF73C /* large_intestine_meridian_li.jpg in Resources */,
+				6390C22D1735717300EBF73C /* liver_meridian_li.jpg in Resources */,
+				6390C22E1735717300EBF73C /* lung_meridian_lu.jpg in Resources */,
+				6390C22F1735717300EBF73C /* pericardium_meridian_pc_or_pe.jpg in Resources */,
+				6390C2301735717300EBF73C /* small_intestine_meridian_si.jpg in Resources */,
+				6390C2311735717300EBF73C /* spleen_meridian_sp.jpg in Resources */,
+				6390C2321735717300EBF73C /* stomach_meridian.jpg in Resources */,
+				6390C2331735717300EBF73C /* triple_heater_meridian_th.jpg in Resources */,
+				6390C2351735728900EBF73C /* emergency_points.jpg in Resources */,
+				6390C23F1735783100EBF73C /* back_feet_caudial.jpg in Resources */,
+				6390C2401735783100EBF73C /* back_feet.jpg in Resources */,
+				6390C2441735783100EBF73C /* front_feet_caudial.jpg in Resources */,
+				6390C2451735783100EBF73C /* front_feet.jpg in Resources */,
+				6390C2461735783100EBF73C /* red_light_therapy.jpg in Resources */,
+				6390C248173579FF00EBF73C /* Horse assessment instructions.pdf in Resources */,
+				632265B517380DE400E6C34F /* Horse assessment instructions-2.png in Resources */,
+				632265B617380DE400E6C34F /* Horse assessment instructions-3.png in Resources */,
+				632265B8173815BD00E6C34F /* Colic 11x17.png in Resources */,
+				63EF4FC0173AB78800C384FE /* iTunesArtwork in Resources */,
+				63EF4FC1173AB78800C384FE /* iTunesArtwork@2x in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F5190F1726BA5100B88CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F519231726BA5200B88CA7 /* main.m in Sources */,
+				63F519271726BA5200B88CA7 /* AppDelegate.m in Sources */,
+				63F519361726BA5200B88CA7 /* FirstViewController.m in Sources */,
+				63F5193D1726BA5200B88CA7 /* SecondViewController.m in Sources */,
+				63F5194F1726C86900B88CA7 /* EABladderViewController.m in Sources */,
+				63F5195A1726D85700B88CA7 /* EABladderViewController_iPhoneViewController.m in Sources */,
+				63F519601726DA5300B88CA7 /* EAAssessmentsViewController.m in Sources */,
+				63F519631726DA7F00B88CA7 /* EAAssessmentsViewController_iPhoneViewController.m in Sources */,
+				63F519781726FCE400B88CA7 /* EAChartsTableViewController.m in Sources */,
+				63F5197B1726FD1B00B88CA7 /* EAChartsTableViewController_iPhoneViewController.m in Sources */,
+				63F5197E1726FDBD00B88CA7 /* EAChartsWebViewViewController.m in Sources */,
+				63F519811726FDFF00B88CA7 /* EAChartsWebViewViewController_iPhoneViewController.m in Sources */,
+				63F519AE17270D5B00B88CA7 /* EAMeridiansTableViewController.m in Sources */,
+				63F519B117270D8300B88CA7 /* EAMeridiansTableViewController_iPhoneViewController.m in Sources */,
+				63F519B41727185800B88CA7 /* EAHomePageWebViewController.m in Sources */,
+				63F519B717271A2600B88CA7 /* EATingPointsTableViewController.m in Sources */,
+				63F519C417271E6E00B88CA7 /* EATingPointsTableViewController_iPhoneViewController.m in Sources */,
+				63F519CA1727211000B88CA7 /* EARedLightTherapyViewController.m in Sources */,
+				63F519CF172722FC00B88CA7 /* EAFAQViewController.m in Sources */,
+				63F519D41727264000B88CA7 /* UIMainViewController.m in Sources */,
+				638611A917282D2300C61B5D /* EAContactsViewController.m in Sources */,
+				638611B117283DDD00C61B5D /* SVProgressHUD.m in Sources */,
+				638611BB1728413A00C61B5D /* BButton.m in Sources */,
+				638611BC1728413A00C61B5D /* NSString+FontAwesome.m in Sources */,
+				638611BE1728413A00C61B5D /* UIColor+BButton.m in Sources */,
+				63FF2BC517394A8C00E5A94D /* EANavigationController.m in Sources */,
+				63FF2BC817394AAA00E5A94D /* EATabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63F5191F1726BA5200B88CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F519201726BA5200B88CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63F5192E1726BA5200B88CA7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F5192F1726BA5200B88CA7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		63F519311726BA5200B88CA7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F519321726BA5200B88CA7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63EF4FC2173ACE8400C384FE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Donna Woods (NLKQSNRNCV)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AFFAC447-3B5A-4CA1-A70A-82361E49AE36";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		63EF4FC3173ACE8400C384FE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Donna Woods (NLKQSNRNCV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EquineAcupoints/EquineAcupoints-Prefix.pch";
+				INFOPLIST_FILE = "EquineAcupoints/EquineAcupoints-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AFFAC447-3B5A-4CA1-A70A-82361E49AE36";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		63F519421726BA5200B88CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63F519431726BA5200B88CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F519451726BA5200B88CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EquineAcupoints/EquineAcupoints-Prefix.pch";
+				INFOPLIST_FILE = "EquineAcupoints/EquineAcupoints-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63F519461726BA5200B88CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EquineAcupoints/EquineAcupoints-Prefix.pch";
+				INFOPLIST_FILE = "EquineAcupoints/EquineAcupoints-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F5190E1726BA5100B88CA7 /* Build configuration list for PBXProject "EquineAcupoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F519421726BA5200B88CA7 /* Debug */,
+				63F519431726BA5200B88CA7 /* Release */,
+				63EF4FC2173ACE8400C384FE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		63F519441726BA5200B88CA7 /* Build configuration list for PBXNativeTarget "Photonic Horse Acupoint & Red Light therapy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F519451726BA5200B88CA7 /* Debug */,
+				63F519461726BA5200B88CA7 /* Release */,
+				63EF4FC3173ACE8400C384FE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F5190B1726BA5100B88CA7 /* Project object */;
+}
