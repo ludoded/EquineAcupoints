@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -457,7 +457,7 @@ To begin any body work on a horse, start with the Bladder Opening. When performi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1WO-zr-dVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1520" y="-1486"/>
+            <point key="canvasLocation" x="1518" y="-1421"/>
         </scene>
         <!--Meridians Table View Controller i Phone View Controller - Meridians-->
         <scene sceneID="VHR-4X-pCE">
@@ -733,7 +733,7 @@ To begin any body work on a horse, start with the Bladder Opening. When performi
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qBW-zX-Sy8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1881" y="-1464"/>
+            <point key="canvasLocation" x="2164" y="-1365"/>
         </scene>
         <!--Charts Table View Controller i Phone View Controller - Charts-->
         <scene sceneID="wGs-zi-ZrM">
@@ -1060,6 +1060,6 @@ To begin any body work on a horse, start with the Bladder Opening. When performi
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Djo-WG-raf"/>
+        <segue reference="2GR-LM-Urr"/>
     </inferredMetricsTieBreakers>
 </document>
